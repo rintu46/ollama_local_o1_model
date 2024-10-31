@@ -8,3 +8,4 @@ response = ollama.generate(
 )
 
 print(response["response"])
+print(response["prompt"])
